@@ -7,7 +7,7 @@
                 <div class="panel panel-default">
                     <div class="panel-heading">Register</div>
                     <div class="panel-body">
-                        <form class="form-horizontal" role="form" method="POST" action="{{ 'HomeController@update' }}">
+                        <form class="form-horizontal" role="form" method="POST" action="{{ 'HomeController@update' }}">//name route
                             {{ csrf_field() }}
 
                             <div class="form-group{{ $errors->has('address') ? ' has-error' : '' }}">
